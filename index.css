@@ -21,6 +21,14 @@ header h1{
 
 main{
     grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+main section{
+    text-align: center;
+    background-color: aquamarine;
 }
 
 footer{
