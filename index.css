@@ -28,8 +28,10 @@ main{
 }
 
 main section{
-    text-align: center;
-    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: deepskyblue;
 }
 
 footer{
