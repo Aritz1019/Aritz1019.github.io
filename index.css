@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer";
+}
+
+header{
+    grid-area: header;
+}
+
+header h1{
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    background-color: lightgray;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
